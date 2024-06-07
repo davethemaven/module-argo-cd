@@ -3,11 +3,13 @@ variable "kubernetes_cluster_id" {
 }
 
 variable "kubernetes_cluster_cert_data" {
-  type = string
+description = "The Kubernetes cluster certificate data"  
+type = string
 }
 
 variable "kubernetes_cluster_endpoint" {
-  type = string
+description = "The Kubernetes cluster endpoint"  
+type = string
 }
 
 variable "kubernetes_cluster_name" {
